@@ -1,0 +1,9 @@
+
+{
+"name":"Wisdom Oracle",
+"short_name":"Oracle",
+"start_url":"index.html",
+"display":"standalone",
+"background_color":"#1a0505",
+"theme_color":"#6b1d1d"
+}

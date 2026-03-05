@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wisdom of Oracle</title>
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>🔮 Wisdom of Oracle</h1>
+</header>
+
+<div class="container">
+
+<div class="card-area">
+
+<div id="card" class="card">
+<div class="card-inner" id="cardInner">
+
+<div class="card-front">
+<img id="cardImage" src="images/back.jpg">
+</div>
+
+<div class="card-back">
+<h2 id="cardTitle">Tap to Draw</h2>
+<p id="cardText">กดปุ่มเพื่อเปิดไพ่ Oracle</p>
+</div>
+
+</div>
+</div>
+
+</div>
+
+<div class="buttons">
+<button onclick="drawCard()">สุ่มไพ่</button>
+<button onclick="dailyCard()">ไพ่ประจำวัน</button>
+<button onclick="resetDeck()">เริ่มสำรับใหม่</button>
+</div>
+
+<div id="cardNumber"></div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
